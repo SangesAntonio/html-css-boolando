@@ -13,6 +13,13 @@
 
 }
 
+.raw{
+    margin-bottom: 30px;
+}
+
+.second-raw{
+    margin-bottom: 90px;
+}
 .product{
     display: inline-block;
     width: calc(99% / 3);
@@ -67,6 +74,18 @@
     background-image: url(../img/3.webp);
 }
 
+.outfit-bottom-left{
+    background-image: url(../img/4.webp);
+}
+
+.outfit-bottom-center{
+    background-image: url(../img/5.webp);
+}
+
+.outfit-bottom-right{
+    background-image: url(../img/6.webp);
+}
+
 /*product info*/
 .text{
     position: absolute;
@@ -82,12 +101,47 @@
 }
 
 .dress-name{
-    font-size: 10;
+    font-size: 12px;
     font-weight: bold;
-    
 
 }
 
 .prices{
+    font-size: 10px;
     color: red;
+}
+
+s{
+    color: black;
+}
+
+/*hover*/
+
+ .heart:hover{
+     color: red;
+     
+ }
+
+.outfit-top-left:hover{
+     background-image: url(../img/1b.webp);
+ }
+
+.outfit-top-center:hover{
+    background-image: url(../img/2b.webp)
+}
+.outfit-top-right:hover{
+    background-image: url(../img/3b.webp)
+}
+
+.outfit-bottom-left:hover{
+    background-image: url(../img/4b.webp)
+
+}
+
+.outfit-bottom-center:hover{
+    background-image: url(../img/5b.webp)
+}
+
+.outfit-bottom-right:hover{
+    background-image: url(../img/6b.webp)
 }
