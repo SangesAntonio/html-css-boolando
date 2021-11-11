@@ -9,6 +9,7 @@
 #container{
     width: 50%;
     margin: 0 auto;
+    font-family: sans-serif;
 
 }
 
@@ -39,11 +40,8 @@
     color: white;
     font-size: 10px;
     position: absolute;
-    left: 100%;
-
-    
- 
-
+    bottom: 15px;
+    left: 45px;
 }
 
 .entities{
@@ -67,4 +65,29 @@
 
 .outfit-top-right{
     background-image: url(../img/3.webp);
+}
+
+/*product info*/
+.text{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+}
+
+.brend{
+    color: rgb(131, 131, 131);
+    font-size: 9px;
+
+}
+
+.dress-name{
+    font-size: 10;
+    font-weight: bold;
+    
+
+}
+
+.prices{
+    color: red;
 }
