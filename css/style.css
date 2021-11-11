@@ -51,6 +51,10 @@
     left: 45px;
 }
 
+.outfit-bottom-right .green{
+    left: 0;
+}
+
 .entities{
     background-color: white;
     padding: 10px 15px;
