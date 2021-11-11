@@ -20,6 +20,39 @@
     padding: 10px 15px;
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.sale-tag{
+    background-color: crimson;
+    padding: 5px 10px;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+.green{
+    background-color: rgb(5, 168, 5);
+    padding: 5px 10px;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    left: 100%;
+
+    
+ 
+
+}
+
+.entities{
+    background-color: white;
+    padding: 10px 15px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 15px;
 }
 
 
